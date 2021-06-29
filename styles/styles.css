@@ -702,7 +702,7 @@ text-decoration: underline white;
 /* Real Taste Section */
 
 .real-taste {
-    background:rgba(0,0,0,0.6) url(/restaurant-website/imgs/spaghetti.jpg);
+    background:rgba(0,0,0,0.6) url(imgs/spaghetti.jpg);
     background-position: center;
     background-size: cover;
     background-blend-mode: darken;
