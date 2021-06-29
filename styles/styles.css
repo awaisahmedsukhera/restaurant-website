@@ -9,6 +9,9 @@
    --ff-secondary: 'Dancing Script', cursive;
    --primary-color: #B3B08F;
    --secondary-color: #918F8B;
+    --white-color: #ffff;
+    
+  
   }
 
 body{
@@ -668,3 +671,253 @@ text-decoration: underline white;
    background-color: #F1EEE8;
    padding: 4%;
 }
+/* Testimonial Section */
+
+.testimonial {
+    background: black;
+    height: 90vh;
+}
+
+.testimonial h3 {
+    color: var(--primary-color);
+    font-family: var(--ff-secondary);
+    font-size: 2.5rem;
+    padding-top: 150px;
+    padding-left: 150px;
+}
+
+.testimonial p {
+    color: white;
+    font-family: var(--ff-primary);
+    font-size: 2.7rem;
+    width: 70%;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+.test-ind {
+    position: relative;
+}
+
+/* Real Taste Section */
+
+.real-taste {
+    background:rgba(0,0,0,0.6) url(/restaurant-website/imgs/spaghetti.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 80vh;
+    width: 100%;
+}
+
+.rt-text {
+    display: grid;
+    grid-template-columns: 1fr 5fr 4fr;
+    grid-template-rows: 2fr 3fr 3fr;
+    width: 100%;
+}
+.rt-text h1 {
+    color: var(--white-color);
+    font-family: var(--ff-primary);
+    line-height: 5rem;
+    font-size: 5rem;
+    font-weight: 700;
+    grid-column: 2;
+    grid-row: 2;   
+}
+
+.rt-text h3 {
+    color: var(--primary-color);
+    font-family: var(--ff-secondary);
+    font-size: 2.5rem;
+    grid-row: 3;
+    grid-column: 2;
+}
+
+/* Team Section */
+.team {
+    width: 100%;
+    height: 100vh;
+    font-family: var(--ff-primary);
+}
+
+.left-block {
+    position: relative;
+    left: -5rem;
+}
+.team h3 {
+    font-family: var(--ff-secondary);
+    color: var(--primary-color);
+    font-size: 2.5rem;
+}
+
+.team h2 {
+    padding: 1rem 5rem 1rem 0rem;
+    font-size: 3.5rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+.team p {
+    color: var(--secondary-color);
+    font-size: 1.4rem;
+}
+
+.team-btn{
+    color: black;
+    text-decoration: underline;
+    font-size: 1.7rem;
+    position: relative;
+    top: 2rem;
+}
+
+.team-btn:hover {
+    color: black;
+    text-decoration: none;
+}
+
+
+.right-block {
+    position: absolute;
+    right: 0%;
+    padding: 5%;
+    background-color: #F1EEE8;
+    color: var(--secondary-color);
+}
+
+.card-body {
+    background-color: #F1EEE8;
+}
+
+.right-block a {
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.right-block a:hover {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.right-block p {
+    font-size: 1.3rem;
+    width: 80%;
+}
+
+.right-block i {
+    font-size: 2rem;
+    letter-spacing: 5px;
+}
+
+/* Gallery Section */
+
+.container-gf {
+    background:black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.container-gf h1 {
+    font-family: var(--ff-primary);
+    font-size: 4rem;
+    color: white;
+}
+
+.container-gf h3 {
+    font-family: var(--ff-secondary);
+    color: var(--primary-color);
+    font-size: 2.5rem;
+}
+
+.container-gf1 {
+    position: relative;
+    content: " ";
+    height: 50vh;
+    background: #F1EEE8;
+}
+
+.container-c {
+    margin-top: -70vh;
+}
+
+.gallery p {
+    margin-top: -100px;
+    margin-left: 30px;
+    color: white;
+    font-weight: 500;
+    font-family: var(--ff-primary);
+    font-size: 1.5rem;
+    width: 80%;
+}
+
+/* Footer Section */
+.footer {
+    position: relative;
+    background: black;
+    margin-top: 250px;
+    height: 70vh;
+}
+
+.footer h2 {
+    font-family: var(--ff-secondary);
+    color: white;
+    font-size: 4.5rem;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.footer-text1 {
+    font-family: var(--ff-primary);
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    text-align: center;
+    width: 80%;
+}
+
+.footer h3 {
+    font-family: var(--ff-primary);
+    color: white;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: var(--ff-primary);
+}
+
+.footer i {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.footer input {
+    padding: 0px 40px;
+    color: white;
+}
+
+.footer-text, .footer-icon, .footer-input {
+    margin-left: auto ;
+    margin-right: auto;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.footer-text p {
+    text-align: center;
+    color: var(--primary-color);
+    font-family: var(--ff-primary);
+}
+
+.footer-text h3 {
+    text-align: center;
+    font-family: var(--ff-primary);
