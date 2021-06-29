@@ -1,0 +1,670 @@
+
+/* Sabahat Waqar */
+
+:root {
+   --main-bg-color: #1e272e;;
+   --black-color: #000;
+   --white-main-color: #fff;
+   --ff-primary: 'Benne', serif ;
+   --ff-secondary: 'Dancing Script', cursive;
+   --primary-color: #B3B08F;
+   --secondary-color: #918F8B;
+  }
+
+body{
+   font-family: 'Benne', serif;
+   /* font-family: 'Dancing Script', cursive; */
+}
+.logo{
+   width: 200px;
+
+}
+.top-bar{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+#navbar-top{
+   background-color: var(--main-bg-color);
+   padding:0.5% 3%;
+   height: 60px;
+}
+.btn-buy{
+   background-color: yellowgreen ;
+}
+.card-img{
+   height: 300px;
+}
+.navbar{
+   color: white;
+}
+.navbar-nav{
+   font-size: 1.5rem;
+  
+}
+.main{
+   color: rgb(255, 240, 212) !important;
+}
+.main:hover{
+color: white !important;
+text-decoration: underline white;
+
+}
+.dropdown-menu{
+   background-color:var(--primary-color);
+   position: relative;
+   color:rgb(255, 240, 212) !important ;
+}
+.drop-item:hover{
+   color: black;
+}
+.drop-item{
+   color: var(--primary-color);
+}
+.carousel-item {
+  height: 600px !important;
+   
+ 
+}
+#slider{
+   margin: 0 auto;
+   margin-top: -100px;
+  width: 90%;
+  height: 500px;
+  
+}
+.welcome2 .line1::after{
+   content: "";
+   display: block;
+   
+   height: 0.2rem;
+   width: 70px;
+   background-color: var(--primary-color);
+
+}
+.welcome2 .line::after{
+   content: "";
+   display: block;
+   height: 0.2rem;
+   width: 50px;
+   background-color: var(--primary-color);
+}
+.carousel-caption h1{
+   font-size: 4rem;
+   font-weight: 900;
+   padding-right: 300px;
+   color: rgb(255, 240, 212) ;
+   line-height: 5rem;
+   padding-top: 15%;
+   
+}
+
+.carousel-caption p{
+   font-size: 2rem;
+   color: var(--primary-color) ;
+   font-family: 'Dancing Script', cursive ;
+   padding-top: 8%;
+   font-weight: 600;
+   padding-right: 70%;
+}
+.slider-back{
+   background-color: #F1EEE8;
+   height: 700px;
+}
+.fab{
+   color: var(--primary-color);
+   border-radius: 100px;
+   font-size: 1.5rem;
+   
+}
+.fab:hover{
+   color: var(--black-color);
+}
+.touch h2{
+   font-size: 1.5rem;
+}
+.touch{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+  
+   font-size: 1.5rem;
+}
+.book-table h1 a{
+   text-decoration: underline var(--black-color);
+   color: var(--black-color);
+   font-size: 1.5rem;
+}
+.book-table h1 a:hover{
+   text-decoration: none;
+}
+.contact{
+   padding: 3% 2%;
+   
+}
+.card-slider img{
+  height: 400px !important;
+}
+.welcome2 h2{
+   font-family: 'Dancing Script', cursive;
+   color:var(--primary-color);
+}
+.welcome2 h1{
+   font-size: 4rem;
+}
+.welcome2 p{
+   font-size: 1.5rem;
+   padding-bottom: 4%;
+}
+.slider2{
+   padding-top: 5%;
+}
+   
+
+.welcome2{
+   padding: 1% 6% 5% 0%;
+}
+#welcome{
+   padding: 7%;
+}
+.contact1{
+   padding: 10% 4% 4% 4%;
+}
+.sub-contacts{
+   font-size: 1.3rem;
+   background-color: var(--black-color);
+   color: var(--white-main-color);
+   padding: 10%;
+   text-align:left;
+   width: 350PX;
+   color: rgb(255, 240, 212) ;
+}
+.sub-contacts a{
+   text-decoration: none;
+   color:rgb(255, 240, 212)  ;
+}
+.sub-contacts a:hover{
+   color: white;
+
+}
+#events{
+   height: 800px;
+   /* margin-top: -150px; */
+}
+.events-row{
+   height: 150px ;
+}
+.black{
+   text-align: left;
+   padding: 4%;
+   font-size: 2rem;
+}
+.text-area{
+   text-align: left;
+   background-color: #F1EEE8;
+   padding: 4%;
+   color: var(--primary-color);
+   font-size: 1.5rem;
+   /* color:rgb(170, 150, 114); */
+}
+.text-area a{ 
+   text-decoration: none ;
+   color: var(--primary-color);
+}
+.text-area a:hover{
+   color: black;
+}
+.timing{
+   background-color: #F1EEE8;
+   text-align: left;
+   padding: 4%;
+   font-size: 1.5rem;
+   color: var(--primary-color);
+}
+.details{
+   text-align: left;
+   padding: 4%;
+   background-color: #F1EEE8;
+   font-size: 1.5rem;
+   color: var(--primary-color);
+}
+.details a{
+   text-decoration: underline  var(--primary-color);
+   color: var(--primary-color);
+}
+.details a:hover{
+   color: black;
+   text-decoration: none;
+}
+#events-main{
+   margin-top: 4%;
+   margin-bottom: 4%;
+}
+#events{
+   text-align: center;
+}
+#events h2{
+   font-family: 'Dancing Script', cursive;
+   color: rgb(170, 150, 114);
+}
+#events h1{
+   font-size: 4rem;
+
+}
+#events .line1::after{
+   content: "";
+   display: block;
+   color: black;
+   height: 0.2rem;
+   width: 70px;
+   background-color: var(--primary-color);
+   margin: 0px auto;
+}
+#events .line::after{
+   content: "";
+   display: block;
+   height: 0.2rem;
+   width: 50px;
+   background-color: var(--primary-color);
+   margin: 0px auto;
+}
+.blog2 img{
+   width: 100%;
+   margin-right: 5%;
+  
+}
+#blog{
+   margin-bottom: 10%;
+   /* margin-top: -200px; */
+}
+.delivery{
+   margin-top: 4%;
+}
+.delivery button{
+   background-color: black;
+   color: var(--white-main-color);
+   border-radius: 0%;
+   width: 15%;
+   font-size: 1.3rem;
+}
+.delivery a{
+   text-decoration: none;
+   color: var(--primary-color);
+   font-size: 1.3rem;
+}
+.delivery a:hover{
+   color: var(--black-color);
+   
+}
+.line1{
+   font-family: 'Dancing Script', cursive;
+   color:var(--primary-color);
+}
+.blog2 .line1::after{
+   content: "";
+   display: block;
+   
+   height: 0.2rem;
+   width: 70px;
+   background-color: var(--primary-color);
+
+}
+.blog2 .line::after{
+   content: "";
+   display: block;
+   height: 0.2rem;
+   width: 50px;
+   background-color: var(--primary-color);
+}
+.blog2 h1{
+   font-size: 4rem;
+}
+.delivery .secrets{
+   font-size: 2rem;
+   text-decoration: none;
+   color: var(--black-color);
+   margin-top: 6%;
+   padding-bottom: 3%;
+   
+}
+.delivery .secrets:hover{
+   color: var(--primary-color);
+}
+.info{
+   text-align: left;
+   padding: 2% 5%;
+   background-color: var(--black-color);
+   color: var(--primary-color);
+   height: 200px;
+   padding-top: 5%;
+   margin-top: 5%;
+}
+#Email{
+   height: 50px;
+   width: 400px;
+   margin-right: 7%;
+   margin-bottom: 4%;
+   font-size: 1.3rem;
+   border:solid var(--black-color)
+}
+.info .sub{
+   color: var(--primary-color);
+   font-size: 1.5rem;
+   text-decoration: underline var(--primary-color);
+}
+.info .sub:hover{
+   color: var(--white-main-color);
+   font-size: 1.5rem;
+   text-decoration: underline var(--white-main-color);
+}
+.radio{
+   color: var(--primary-color);
+
+}
+.privacy{
+   color: var(--white-main-color);
+   text-decoration: none;
+}
+.privacy:hover{
+   color: var(--primary-color);
+   text-decoration: none;
+}
+.image2{
+   margin-top: 50%;
+}
+.image2 img{
+   width: 100%;
+   height: 600px;
+}
+.cash{
+   margin-top: 5%;
+   line-height: 3rem;
+}
+.cash .date{
+   text-decoration: none;
+   color: var(--primary-color);
+}
+
+.cash .date:hover{
+   color: var(--black-color);
+   text-decoration:none;
+}
+
+.cash .heading2{
+   text-decoration: none;
+   color: var(--black-color);
+}
+.cash .heading2:hover{
+   color: var(--primary-color);
+   text-decoration:none;
+}
+#events h3 a{
+   text-decoration: underline var(--black-color);
+   color: var(--black-color);
+}
+#events h3 a:hover{
+   color: var(--primary-color);
+   text-decoration: none;
+
+}
+
+#discount{
+   width: 85%;
+   margin: 4% auto;
+   height: 500px;
+}
+.d-img img{
+   /* margin-right: -2px; */
+   width: 100%;
+   height: 100%;
+}
+.time h2{
+   font-family: 'Dancing Script', cursive;
+   color:var(--primary-color);
+}
+.time h1{
+   font-size: 4rem;
+   color: var(--white-main-color);
+}
+.time a{
+ text-decoration: underline var(--primary-color);
+ color: var(--white-main-color);
+ font-size: 1.5rem;
+
+}
+.time a:hover{
+   text-decoration:none;
+   color: var(--white-main-color);
+   font-size: 1.5rem;
+  }
+  .time{
+     background-color: var(--black-color);
+     text-align: center;
+      height: 100%;
+     
+  }
+  .time .line1::after{
+   content: "";
+   display: block;
+   margin:5px auto;
+   height: 0.2rem;
+   width: 50px;
+   background-color: var(--primary-color);
+
+}
+.time .line::after{
+   content: "";
+   margin:5px auto;
+   display: block;
+   height: 0.2rem;
+   width: 70px;
+   background-color: var(--primary-color);
+}
+.address .line1::after{
+   content: "";
+   display: block;
+   margin:5px auto;
+   height: 0.2rem;
+   width: 50px;
+   background-color: var(--primary-color);
+
+}
+.address .line::after{
+   content: "";
+   margin:5px auto;
+   display: block;
+   height: 0.2rem;
+   width: 70px;
+   background-color: var(--primary-color);
+}
+.phone .line1::after{
+   content: "";
+   display: block;
+   margin:5px auto;
+   height: 0.2rem;
+   width: 50px;
+   background-color: var(--primary-color);
+
+}
+.phone .line::after{
+   content: "";
+   margin:5px auto;
+   display: block;
+   height: 0.2rem;
+   width: 70px;
+   background-color: var(--primary-color);
+}
+.working .line1::after{
+   content: "";
+   display: block;
+   margin:5px auto;
+   height: 0.2rem;
+   width: 50px;
+   background-color: var(--primary-color);
+
+}
+.working .line::after{
+   content: "";
+   margin:5px auto;
+   display: block;
+   height: 0.2rem;
+   width: 70px;
+   background-color: var(--primary-color);
+}
+.Email-1 .line1::after{
+   content: "";
+   display: block;
+   margin:5px auto;
+   height: 0.2rem;
+   width: 50px;
+   background-color: var(--primary-color);
+
+}
+.Email-1 .line::after{
+   content: "";
+   margin:5px auto;
+   display: block;
+   height: 0.2rem;
+   width: 70px;
+   background-color: var(--primary-color);
+}
+.contact-1{
+   text-align: center;
+   
+}
+.informations{
+   margin:5% auto;
+}
+.address p{
+   font-size: 1.3rem;
+   color: var(--primary-color);
+}
+.phone p{
+   font-size: 1.3rem;
+   color: var(--primary-color); 
+}
+.phone a{
+   text-decoration: none;
+   font-size: 1.3rem;
+   color: var(--primary-color); 
+}
+.phone a:hover{
+   text-decoration: none;
+   font-size: 1.3rem;
+   color: var(--black-color); 
+}
+.working p{
+   font-size: 1.3rem;
+   color: var(--primary-color);
+}
+.Email-1 a{
+   text-decoration: none;
+   font-size: 1.3rem;
+   color: var(--primary-color); 
+}
+.Email-1 a:hover{
+   text-decoration: none;
+   font-size: 1.3rem;
+   color: var(--black-color); 
+}
+#map{
+   width: 85%;
+   margin: 20% auto;
+}
+.gotopbtn{
+  width: 80px;
+   color: var(--primary-color);
+  margin-left: 90%;
+  margin-bottom: 5%;
+  background-color: var(--white-main-color);
+  border-radius: 100px;
+}
+#fixed{
+   width: 100%;
+}
+.fas{
+   font-size: 5rem;
+}
+.cart  {
+  width: 50px;
+  line-height: 4rem;
+  padding: 1% 0.5%;
+  /* margin-left: 96%; */
+  /* margin-bottom: 15%; */
+  position: fixed;
+  bottom: 200px;
+  left: 96%;
+  background-color: var(--main-bg-color);
+ height: 200px;
+}
+.fa-shopping-cart {
+  font-size: 2rem;
+  color: white;
+}
+.far{
+   font-size: 2rem;
+  
+   color: white; 
+}
+.cart-btn{
+   font-size: 2rem;
+  color: white;
+}
+.menu2 col img{
+   width: 100%;
+}
+.menu{
+   position: relative;
+}
+.menu2 .col-3 h4 a{
+   color: var(--main-bg-color);
+   text-decoration: underline var(--main-bg-color);
+   margin: 10px;
+
+}
+.menu2 .col-3 h4 a:hover{
+   color: var(--primary-color);
+   text-decoration: underline var(--main-bg-color);
+
+}
+#menu h2{
+   font-family: 'Dancing Script', cursive;
+   color:var(--primary-color);
+}
+#menu .line1::after{
+   content: "";
+   display: block;
+  
+   height: 0.2rem;
+   width: 50px;
+   background-color: var(--primary-color);
+
+}
+#menu .line::after{
+   content: "";
+   
+   display: block;
+   height: 0.2rem;
+   width: 70px;
+   background-color: var(--primary-color);
+}
+.explore{
+   font-size: 3.5rem;
+   color: var(--black-color);
+}
+#menu li a{
+   color: var(--black-color);
+   text-decoration: none;
+
+}
+#menu li a:hover{
+   color: var(--primary-color);
+   text-decoration: underline var(--main-bg-color);
+   
+}
+#menu{
+   background-color: #F1EEE8;
+   padding: 4%;
+}
